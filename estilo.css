@@ -1,0 +1,222 @@
+
+html,body, .capa{
+    height: 100%;
+}
+
+body{
+    background-image: url('imagens/capa.png'),
+                      url('imagens/ruido.png'),
+                      linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.img-logo{
+    height: 40px;
+    width: 132px;
+    background-image: url('imagens/spotify.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    color: transparent;
+}
+
+nav.navbar-transparent{
+    background-color: rgba(0,0,0,0.6);
+    padding: 15px 0px;
+    border: none;
+}
+
+.navbar-brand{
+    padding: 5px 15px;
+}
+
+.divisor{
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 18px 10px;
+}
+
+@media (max-width: 766px) {
+    .divisor{
+        width: 16px;
+        height: 1px;
+        background: white;
+        margin: 18px 10px;
+    }
+}
+
+@media (min-width: 520px){
+    h1{
+        font-size: 40px;
+        font-weight: 900;
+        letter-spacing: -5px;
+        font-family: 'Helvetica CE', 'Arial', sans-serif;
+        margin-bottom: 40px;
+    }
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: #FFF;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #9bf0e1;
+}
+
+.capa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-capa{
+    text-align: center;
+    color: white;
+
+}
+
+h1{
+    font-size: 95px;
+    font-weight: 900;
+    letter-spacing: -5px;
+    font-family: 'Helvetica CE', 'Arial', sans-serif;
+    margin-bottom: 40px;
+}
+
+.texto-capa>a{
+    margin: 10px 10px;
+}
+.navbar-inverse .navbar-toggle{
+    border: 0.5px solid white;
+    color: #fff;
+}
+
+.btn-free{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    position: relative;
+    color: #FFF;
+    background-color: #7420c9;
+    border-radius: 500px;
+    box-shadow: 0px 2px 7px #2f2d2f;
+    transition:all 0.2s ease-in-out;
+}
+
+.btn-buy{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 10px 30px;
+    position: relative;
+    color: #FFF;
+    background-color: transparent;
+    border-radius: 500px;
+    border: 2px solid white;
+    box-shadow: 0px 2px 7px #2f2d2f;
+    transition:all 0.2s ease-in-out;
+}
+
+.btn-free:hover{
+    background-color: #902aff;
+    color: #FFF;
+    transform: translate(0px,-2px);
+    box-shadow: 0px 5px 7px #2f2d2f;
+}
+
+.btn-buy:hover{
+    background-color: white;
+    color: #000;
+    transform: translate(0px,-2px);
+    box-shadow: 0px 5px 7px #2f2d2f;
+}
+
+#servicos{
+    background-color: white;
+    padding-top: 30px;
+}
+
+.col-md-6>img{
+    padding-bottom: 30px;
+}
+
+h2{
+    font-size: 370%;
+    font-weight: bold;
+    letter-spacing: -3px;
+}
+
+h3{
+    font-size: 270%;
+    font-weight: bold;
+}
+
+p{
+    font-weight: 500;
+}
+
+.txt-roxo{
+    color: #7c25f8;
+}
+
+.txt-branco{
+    color: white;
+}
+
+.txt-azulciano{
+    color: #41c3f8;
+}
+
+#telefones{
+    transform: rotate(30deg);
+    top: -20px;
+    left: +40px;
+}
+
+#rodape{
+    background-color: black;
+    position: relative;
+    padding: 40px 0px;
+}
+
+[alt="phone2"]{
+    position: relative;
+    top: 115px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+#rodape>div>div>div>div>ul>li{
+    padding: 10px 0px;
+    color: white;
+}
+
+#rodape>div>div>div>div>ul>li>a{
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#social-media>li{
+    float: right;
+    display: inline;
+    margin: 0px 7px;
+}
+
+h4{
+    font-family: "COCOGOOSE";
+    font-size: 85%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #a4a4a4;
+}
